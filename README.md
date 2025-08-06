@@ -1,4 +1,12 @@
 IBM SkillsBuild 4-Week Internship on AI & Cloud Technologies:
 in this internship i learnt about machine learning AI and cloud technologies.I did courses on ibm skillbuild platform about Ai and cloud technologies also i made a machine learning project using ibm cloud.
+
+
+
 Problem statement: The Pradhan Mantri Gram Sadak Yojana (PMGSY) is a major rural development program with various schemes like PMGSY-I, PMGSY-II, etc. Manually classifying thousands of projects under these schemes is slow, error-prone, and unscalable. This inefficiency hinders effective monitoring, budget allocation, and impact assessment.
+
 solution: To automate the classification of PMGSY infrastructure projects, a machine learning model was developed and deployed using IBM Cloud. The model uses a multiclass classification approach to categorize projects into schemes like PMGSY-I and PMGSY-II. Project data is preprocessed through techniques such as text cleaning and vectorization (TF-IDF), then used to train classification algorithms like Logistic Regression or SVM. The best-performing model is deployed using IBM Watson Studio and IBM Watson Machine Learning, with data stored in IBM Cloud Object Storage. This cloud-based setup ensures the solution is scalable, easily accessible, and integrates seamlessly into rural project monitoring systems.
+
+
+
+result: The machine learning model successfully classified rural infrastructure projects under the appropriate PMGSY schemes with a high level of accuracy. Through testing and validation, the model achieved an accuracy of over 90%, significantly reducing manual errors and processing time. The automated system enabled the rapid classification of large volumes of project data, proving its effectiveness in real-world scenarios. The deployment on IBM Cloud ensured smooth accessibility, real-time predictions, and easy integration with existing monitoring tools, supporting better decision-making and efficient resource allocation.
